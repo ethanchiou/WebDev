@@ -1,60 +1,54 @@
 body{
+    font-family: Arial, sans-serif;
     background-color: lightblue;
 }
+
 h1{
-    background-color:rgb(247, 156, 123);
-    width:450px;
-    height:100px;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    border-radius: 20px;
-    margin: 20px auto;
-    margin-top:50px;
+    color:darkblue
 }
-#container{
-    font-family:Arial, sans-serif;
+div{
+    margin-top:30px;
+}
+form{
+    background-color: aliceblue;
+    text-align: center;
+    max-width: 350px;
+    margin:auto;
+    padding: 25px;
+    border-radius:15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.465);
+}
+#textBox{
+    width:50%;
     text-align:center;
-    font-size: 2rem; 
-    align-items:center;
+    font-size: 2em;
+    border:2px solid rgba(0, 0, 0, 0.595);
+    border-radius:5px;
+    margin-bottom:15px;
+}
+label{
+    font-size:1.5em;
+    font-weight:bold;
 }
 
 button{
-    font-size: 1.5rem;
-    padding: 10px 15px;
-    border-radius:10px;
-    border:none;
-    background-color:rgb(0, 98, 255);
+    margin-top:15px;
+    background-color: rgba(233, 149, 85, 0.882);
+    font-size:1.5em;
     color:white;
-    font-weight:bold;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
     cursor:pointer;
 }
 button:hover{
-    background-color:rgb(65, 131, 238);
-}
-button:active{
-    background-color:rgb(173, 202, 249);
-}
-#totalValueDisplay{
-    background-color: white;
-    width: 270px;
-    height: 0px;
-    align-items:center;
-    display:flex;
-    justify-content: center;
-    margin: 20px auto;
-    border-radius: 15px;
-    border: 1px solid lightblue
+    background-color:rgb(237, 138, 62);
 }
 
-input{
-    font-size: 2rem;
-    width:125px;
-    text-align:center;
+#result{
+    font-size:1.75em;
     font-weight:bold;
-}
-img{
-    width:150px;
-    border-radius:15px;
-    margin:10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
 }
